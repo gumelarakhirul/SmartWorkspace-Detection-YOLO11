@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 22
+names: ['Apple-Pencil', 'Bag', 'Calculator', 'Charging-cable', 'Earphones', 'Glasses', 'Keyboard', 'Keys', 'Laptop', 'Lecture-notes', 'Markers', 'Mobile phone', 'Mouse', 'PC', 'Pen', 'Screen', 'StudentID_card', 'Wallet', 'Watch', 'Water bottle', 'iPad-Air', 'iPad-Pro']
+
+roboflow:
+  workspace: yolo-object-detection-custom-dataset
+  project: study-desk-items
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-object-detection-custom-dataset/study-desk-items/dataset/2
