@@ -1,0 +1,9 @@
+train: train/images
+val: valid/images
+test: test/images
+names:
+- keyboard
+- mouse
+- pc
+- monitor
+nc: 4

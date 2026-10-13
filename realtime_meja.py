@@ -29,10 +29,10 @@ def main():
         from ultralytics import YOLO
         DEVICE=0 if torch.cuda.is_available() else 'cpu'
         model=YOLO(str(args.model))
-        expected=['keyboard','laptop','mobile_phone','monitor','mouse','pc']
-        if list(model.names.values()) != expected:
-            parser.error('Model belum memakai Desktop Setup. Jalankan training dan simpan model di notebook.')
-        CLASS_IDS=list(model.names)
+        expected=['keyboard','mouse','pc','monitor']
+        if not set(expected).issubset(model.names.values()):
+            parser.error('Model tidak memiliki empat kelas target. Jalankan training notebook.')
+        CLASS_IDS=[cid for cid,name in model.names.items() if name in expected]
         print('Model:',args.model,'| Device:',DEVICE)
         print('Kelas:',[model.names[cid] for cid in CLASS_IDS])
         kamera_iriun(model, CLASS_IDS, DEVICE, args.conf)
@@ -71,7 +71,7 @@ def kamera_iriun(model, CLASS_IDS, DEVICE, conf=0.70):
                     current.append((cid,box,n))
                     if n>=2:keep.append(i)
                 previous=current;result=result[keep];count=len(result.boxes)
-                aliases={'keyboard':'Keyboard','laptop':'Laptop','mobile_phone':'HP','monitor':'Monitor','mouse':'Mouse','pc':'PC'}
+                aliases={'keyboard':'Keyboard','monitor':'Monitor','mouse':'Mouse','pc':'PC'}
                 result.names={cid:aliases.get(name,name) for cid,name in model.names.items()}
                 image=result.plot(line_width=2,font_size=14)
             fps=1/max(time.perf_counter()-started,1e-6)

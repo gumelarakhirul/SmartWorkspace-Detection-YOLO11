@@ -1,0 +1,87 @@
+{
+  "kelas": [
+    "keyboard",
+    "mouse",
+    "pc",
+    "monitor"
+  ],
+  "sumber": [
+    {
+      "dataset": "Desktop Setup.v20i.yolov11.zip",
+      "gambar": 144,
+      "split": {
+        "test": 8,
+        "train": 126,
+        "valid": 10
+      },
+      "objek_target": {
+        "monitor": 174,
+        "keyboard": 134,
+        "mouse": 122,
+        "pc": 94
+      }
+    },
+    {
+      "dataset": "monitor-keyboard-mouse.v1i.yolov11.zip",
+      "gambar": 448,
+      "split": {
+        "test": 30,
+        "train": 359,
+        "valid": 59
+      },
+      "objek_target": {
+        "monitor": 389,
+        "keyboard": 72,
+        "mouse": 61
+      }
+    },
+    {
+      "dataset": "computer.v3i.yolov11.zip",
+      "gambar": 72,
+      "split": {
+        "test": 2,
+        "train": 66,
+        "valid": 4
+      },
+      "objek_target": {
+        "monitor": 34,
+        "pc": 34,
+        "keyboard": 30,
+        "mouse": 31
+      }
+    }
+  ],
+  "gambar_awal": 664,
+  "gambar_gabungan": 664,
+  "split": {
+    "test": 81,
+    "train": 470,
+    "valid": 113
+  },
+  "anotasi_per_split": {
+    "test": {
+      "keyboard": 13,
+      "mouse": 9,
+      "monitor": 82,
+      "pc": 8
+    },
+    "train": {
+      "keyboard": 204,
+      "mouse": 179,
+      "monitor": 417,
+      "pc": 111
+    },
+    "valid": {
+      "keyboard": 19,
+      "mouse": 26,
+      "pc": 9,
+      "monitor": 98
+    }
+  },
+  "duplikat_identik_dihapus": 0,
+  "gambar_konflik_anotasi_dikeluarkan": 0,
+  "gambar_pindah_split": 85,
+  "polygon_dikonversi": 30,
+  "gambar_background": 7,
+  "catatan": "Split sumber dipertahankan; kelompok augmentasi lintas split dipindahkan ke test/valid. Audit hash dan nama sumber; duplikat visual berbeda nama belum diverifikasi."
+}
