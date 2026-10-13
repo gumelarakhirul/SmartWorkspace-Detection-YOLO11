@@ -10,8 +10,9 @@ BASE = Path(__file__).resolve().parent
 def main():
     parser=argparse.ArgumentParser(description='Object detection YOLO11 dengan Iriun.')
     parser.add_argument('--model',type=Path,default=BASE/'best.pt')
-    parser.add_argument('--conf',type=float,default=0.80)
+    parser.add_argument('--conf',type=float,default=0.70)
     parser.add_argument('--list-kamera',action='store_true')
+    parser.add_argument('--kamera',choices=['iriun'],default='iriun')
     args=parser.parse_args()
     if not 0.40 <= args.conf <= 0.95:
         parser.error('--conf harus antara 0.40 dan 0.95.')
@@ -28,9 +29,10 @@ def main():
         from ultralytics import YOLO
         DEVICE=0 if torch.cuda.is_available() else 'cpu'
         model=YOLO(str(args.model))
-        selected={'Keyboard','Mouse','Laptop','Screen','Mobile phone','PC','Earphones','Charging-cable','Water bottle','Pen'}
-        CLASS_IDS=[cid for cid,name in model.names.items() if name in selected]
-        if not CLASS_IDS:parser.error('Model tidak memiliki kelas meja yang dipilih.')
+        expected=['keyboard','laptop','mobile_phone','monitor','mouse','pc']
+        if list(model.names.values()) != expected:
+            parser.error('Model belum memakai Desktop Setup. Jalankan training dan simpan model di notebook.')
+        CLASS_IDS=list(model.names)
         print('Model:',args.model,'| Device:',DEVICE)
         print('Kelas:',[model.names[cid] for cid in CLASS_IDS])
         kamera_iriun(model, CLASS_IDS, DEVICE, args.conf)
@@ -40,7 +42,7 @@ def iou(a,b):
     area_a=(a[2]-a[0])*(a[3]-a[1]);area_b=(b[2]-b[0])*(b[3]-b[1])
     return inter/max(area_a+area_b-inter,1e-9)
 
-def kamera_iriun(model, CLASS_IDS, DEVICE, conf=0.80):
+def kamera_iriun(model, CLASS_IDS, DEVICE, conf=0.70):
     import cv2
     import numpy as np
     from cv2_enumerate_cameras import enumerate_cameras
@@ -69,7 +71,7 @@ def kamera_iriun(model, CLASS_IDS, DEVICE, conf=0.80):
                     current.append((cid,box,n))
                     if n>=2:keep.append(i)
                 previous=current;result=result[keep];count=len(result.boxes)
-                aliases={'Screen':'Monitor','Water bottle':'Tumbler/Botol','Charging-cable':'Kabel charger','Earphones':'Earphone','Mobile phone':'HP','Pen':'Pena'}
+                aliases={'keyboard':'Keyboard','laptop':'Laptop','mobile_phone':'HP','monitor':'Monitor','mouse':'Mouse','pc':'PC'}
                 result.names={cid:aliases.get(name,name) for cid,name in model.names.items()}
                 image=result.plot(line_width=2,font_size=14)
             fps=1/max(time.perf_counter()-started,1e-6)
