@@ -5974,5 +5974,230 @@
     "source_group": "(2, 'mo1_jpg')",
     "sha256": "478e7120b99eca8ef85edc9c5cb921d4f02b938189e9f620e5754caf1001b444",
     "objects": 1
+  },
+  {
+    "file": "lab_2_jpg.rf.04ee0467ce0f4ddf6062edd165ba52f5.jpg",
+    "split": "train",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/2_jpg.rf.04ee0467ce0f4ddf6062edd165ba52f5.jpg",
+    "source_group": "lab_session_1",
+    "sha256": "19c16f375c9afe6cb5faf54e1a4b05289454dbb6e06d6ed86370e8b145d3a6c1",
+    "objects": 4
+  },
+  {
+    "file": "lab_3_jpg.rf.11262164c4cd70ee76fc1bb7aacb0c16.jpg",
+    "split": "train",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/3_jpg.rf.11262164c4cd70ee76fc1bb7aacb0c16.jpg",
+    "source_group": "lab_session_1",
+    "sha256": "4500d55cc52ccb32d07d9bb1976263eecea988430248f29561ef80c46e3b5692",
+    "objects": 4
+  },
+  {
+    "file": "lab_allmn_jpg.rf.121b10dd92c17af6d5de21890e6c7595.jpg",
+    "split": "train",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/allmn_jpg.rf.121b10dd92c17af6d5de21890e6c7595.jpg",
+    "source_group": "lab_session_1",
+    "sha256": "ccbf86628d630c83dd50c434b8e6417f9be85f279b278ab6b31e7b1ceb5d9708",
+    "objects": 4
+  },
+  {
+    "file": "lab_allpc_jpg.rf.66769f1dc05394a5310bbd855c4325d6.jpg",
+    "split": "train",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/allpc_jpg.rf.66769f1dc05394a5310bbd855c4325d6.jpg",
+    "source_group": "lab_session_1",
+    "sha256": "9084b0a88faf12a5e306085eb9b1f5953f54da9ef9d7c27f03e9c930192967eb",
+    "objects": 8
+  },
+  {
+    "file": "lab_monitor_jpg.rf.fd9a2d75ed38d89abdf832d2dfb3badf.jpg",
+    "split": "train",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/monitor_jpg.rf.fd9a2d75ed38d89abdf832d2dfb3badf.jpg",
+    "source_group": "lab_session_1",
+    "sha256": "fa297d23e49376db7319592ec8fb7c43189539fa653f8cb475f000ce475beb67",
+    "objects": 1
+  },
+  {
+    "file": "lab_monitorkey_jpg.rf.ca0e00dc1a787e3a422f71f55a7f3f41.jpg",
+    "split": "train",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/monitorkey_jpg.rf.ca0e00dc1a787e3a422f71f55a7f3f41.jpg",
+    "source_group": "lab_session_1",
+    "sha256": "7ae94d767b324ec8d0ea69d2c1768b95457d19eed4873e16f2bf7313f339ee12",
+    "objects": 2
+  },
+  {
+    "file": "lab_mouse_jpg.rf.63efb977dd17820f5e2f2082fa7f1ace.jpg",
+    "split": "train",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/mouse_jpg.rf.63efb977dd17820f5e2f2082fa7f1ace.jpg",
+    "source_group": "lab_session_1",
+    "sha256": "162413250df989d93bb0443722301bfbb0e8fe19f436221938245e8d90319b74",
+    "objects": 1
+  },
+  {
+    "file": "lab_pc2_jpg.rf.f3d039fdea83ff11f9476f882b00e20c.jpg",
+    "split": "train",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/pc2_jpg.rf.f3d039fdea83ff11f9476f882b00e20c.jpg",
+    "source_group": "lab_session_1",
+    "sha256": "d9d70f41fb343fd81deef0eacebeac22c119a3d0e37d732e2946a727af3431ab",
+    "objects": 2
+  },
+  {
+    "file": "lab_PC_jpg.rf.03af388919727a6377c4782027196c0d.jpg",
+    "split": "train",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/PC_jpg.rf.03af388919727a6377c4782027196c0d.jpg",
+    "source_group": "lab_session_1",
+    "sha256": "8c451bcd3f96f1a59c1d26909773d8948bae7039afc9ddb57bc3c92a2c4c9626",
+    "objects": 3
+  },
+  {
+    "file": "lab_v2_1769da73-4f7b-4b08-9eff-aec7e9a53d0f-1-_jpg.rf.b478c20735fa32708a9f6c4b88b0a636.jpg",
+    "split": "train",
+    "source_group": "lab_v2_1769da73-4f7b-4b08-9eff-aec7e9a53d0f-1-_jpg",
+    "sha256": "164e7d3f35888bab5c9bbc226025c02f684dbd6de006cd43c36d7b3668bd8729",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/1769da73-4f7b-4b08-9eff-aec7e9a53d0f-1-_jpg.rf.b478c20735fa32708a9f6c4b88b0a636.jpg",
+    "objects": 4
+  },
+  {
+    "file": "lab_v2_773ec345-a493-4883-8e64-29a23eaad43f_jpg.rf.f5a22f4d43c3b7b862446d8819f87f00.jpg",
+    "split": "train",
+    "source_group": "lab_v2_773ec345-a493-4883-8e64-29a23eaad43f_jpg",
+    "sha256": "b99ab8a186410a4bb0d96e07aa8e33ba34e31baa967550065699821572a1b8df",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/773ec345-a493-4883-8e64-29a23eaad43f_jpg.rf.f5a22f4d43c3b7b862446d8819f87f00.jpg",
+    "objects": 8
+  },
+  {
+    "file": "lab_v2_8e6f255f-7ef2-42fc-98fc-b8dba3e291fd_jpg.rf.13b64e153324def5fc93adbfb3014da0.jpg",
+    "split": "train",
+    "source_group": "lab_v2_8e6f255f-7ef2-42fc-98fc-b8dba3e291fd_jpg",
+    "sha256": "f06e609f0acfd2f9790b27cea7f6bfba88a41550f69452973fc94bf14876f6e6",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/8e6f255f-7ef2-42fc-98fc-b8dba3e291fd_jpg.rf.13b64e153324def5fc93adbfb3014da0.jpg",
+    "objects": 3
+  },
+  {
+    "file": "lab_v2_afd119bb-a0d0-46f8-bc04-8416ba51fffd_jpg.rf.937e4cee169d9ac0df385f74046c9bb1.jpg",
+    "split": "train",
+    "source_group": "lab_v2_afd119bb-a0d0-46f8-bc04-8416ba51fffd_jpg",
+    "sha256": "bc8f022119cf05eb26c1325f73b4113a35ec80a63d42ff9bef50ab82bd340be5",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/afd119bb-a0d0-46f8-bc04-8416ba51fffd_jpg.rf.937e4cee169d9ac0df385f74046c9bb1.jpg",
+    "objects": 7
+  },
+  {
+    "file": "lab_v2_bcc0f406-695f-40c6-b671-3721828b1c8b_jpg.rf.0e5bc47e3168bba6bb13f5c4d09e5340.jpg",
+    "split": "train",
+    "source_group": "lab_v2_bcc0f406-695f-40c6-b671-3721828b1c8b_jpg",
+    "sha256": "6b2ddb0bb61bfe6af504476c9d7589f6f88717399bed25dd7283e1a066e693bc",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/bcc0f406-695f-40c6-b671-3721828b1c8b_jpg.rf.0e5bc47e3168bba6bb13f5c4d09e5340.jpg",
+    "objects": 26
+  },
+  {
+    "file": "lab_v2_f0daf830-301a-40fd-a7bd-fc536701efb0_jpg.rf.8f7bb9603764796f036ab193007003c9.jpg",
+    "split": "train",
+    "source_group": "lab_v2_f0daf830-301a-40fd-a7bd-fc536701efb0_jpg",
+    "sha256": "d9ccb5ff2a0f82cca1daf851cf021c6229412afc2ee836456cb36dcb4549e5ca",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "train/images/f0daf830-301a-40fd-a7bd-fc536701efb0_jpg.rf.8f7bb9603764796f036ab193007003c9.jpg",
+    "objects": 5
+  },
+  {
+    "file": "lab_v2_830e5d81-3924-443e-9a01-0888f950e853_jpg.rf.ef2f34b2640c32cf128b26ef8cd61375.jpg",
+    "split": "valid",
+    "source_group": "lab_v2_830e5d81-3924-443e-9a01-0888f950e853_jpg",
+    "sha256": "21cc2f41ca3b845e32fa459eaf064a44090023967e639057ead5c9e1a61d565d",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "valid/images/830e5d81-3924-443e-9a01-0888f950e853_jpg.rf.ef2f34b2640c32cf128b26ef8cd61375.jpg",
+    "objects": 5
+  },
+  {
+    "file": "lab_v2_860676d7-4a50-4321-b73e-32a4852c1b1d_jpg.rf.81d8fa0ffbc4445c4786dc58e26b984e.jpg",
+    "split": "valid",
+    "source_group": "lab_v2_860676d7-4a50-4321-b73e-32a4852c1b1d_jpg",
+    "sha256": "e395064e7cf41b25be78e1dbe2eaf0df668415722c5c586826cdab48c57711b6",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "valid/images/860676d7-4a50-4321-b73e-32a4852c1b1d_jpg.rf.81d8fa0ffbc4445c4786dc58e26b984e.jpg",
+    "objects": 16
+  },
+  {
+    "file": "lab_v2_acb6c4fc-0644-42be-aeaf-e56964abd13d_jpg.rf.bd36fcf03ab053a721497e25ae7379c7.jpg",
+    "split": "valid",
+    "source_group": "lab_v2_acb6c4fc-0644-42be-aeaf-e56964abd13d_jpg",
+    "sha256": "060163d3666cf4a2b871f189fb62240fe9695808775743e821e8709096d9e766",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "valid/images/acb6c4fc-0644-42be-aeaf-e56964abd13d_jpg.rf.bd36fcf03ab053a721497e25ae7379c7.jpg",
+    "objects": 23
+  },
+  {
+    "file": "lab_v2_c89c2c6b-7e12-44e9-b986-8d2a6f793ea9_jpg.rf.41cd6b05697a249949c4f23764f28890.jpg",
+    "split": "valid",
+    "source_group": "lab_v2_c89c2c6b-7e12-44e9-b986-8d2a6f793ea9_jpg",
+    "sha256": "48297ad4c93826e4b1f1c76270f7a2439a92658942917c6a421ab233db79435a",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "valid/images/c89c2c6b-7e12-44e9-b986-8d2a6f793ea9_jpg.rf.41cd6b05697a249949c4f23764f28890.jpg",
+    "objects": 12
+  },
+  {
+    "file": "lab_v2_f1e19871-5c21-474f-b424-728997c09bc2_jpg.rf.65a90c7e3360a906ff634f93f5ec9e3e.jpg",
+    "split": "valid",
+    "source_group": "lab_v2_f1e19871-5c21-474f-b424-728997c09bc2_jpg",
+    "sha256": "5e11c425e4bb0d7ec17bb16c9f86932e3897349f746bf2987d55bde0899d25fa",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "valid/images/f1e19871-5c21-474f-b424-728997c09bc2_jpg.rf.65a90c7e3360a906ff634f93f5ec9e3e.jpg",
+    "objects": 20
+  },
+  {
+    "file": "lab_v2_10b3b914-bcb9-4b8f-85ce-cedf8452a774_jpg.rf.8d05c4b662de95c171c60ada4089fd40.jpg",
+    "split": "test",
+    "source_group": "lab_v2_10b3b914-bcb9-4b8f-85ce-cedf8452a774_jpg",
+    "sha256": "9778e5bf3f83ecc89bc2cff2fbf0c021933d2dd98ab053041853a5f32cecf49d",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "test/images/10b3b914-bcb9-4b8f-85ce-cedf8452a774_jpg.rf.8d05c4b662de95c171c60ada4089fd40.jpg",
+    "objects": 4
+  },
+  {
+    "file": "lab_v2_123608e1-d52a-4579-b27c-167cd79c3496_jpg.rf.3387ec9e05bcad5580155a899cb46510.jpg",
+    "split": "test",
+    "source_group": "lab_v2_123608e1-d52a-4579-b27c-167cd79c3496_jpg",
+    "sha256": "c8a6b5fe737705be13439aa525748b7772966bfb9ebfa0acf87604eb52c41fb9",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "test/images/123608e1-d52a-4579-b27c-167cd79c3496_jpg.rf.3387ec9e05bcad5580155a899cb46510.jpg",
+    "objects": 17
+  },
+  {
+    "file": "lab_v2_71085c8b-11ff-40f6-97f2-751f09e24d60_jpg.rf.8b7aab8dfa968cd32bb03a05a272e942.jpg",
+    "split": "test",
+    "source_group": "lab_v2_71085c8b-11ff-40f6-97f2-751f09e24d60_jpg",
+    "sha256": "d12a2aefc6be61a2d5af1318849f4cbcb428d2e5628ca5c664a19906f0950c8b",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "test/images/71085c8b-11ff-40f6-97f2-751f09e24d60_jpg.rf.8b7aab8dfa968cd32bb03a05a272e942.jpg",
+    "objects": 4
+  },
+  {
+    "file": "lab_v2_d3dd8f6e-076d-42e5-838b-5348eec55082_jpg.rf.fcc76e2bb45650be2148674c2975f990.jpg",
+    "split": "test",
+    "source_group": "lab_v2_d3dd8f6e-076d-42e5-838b-5348eec55082_jpg",
+    "sha256": "652c732a0a80f08c1453e20034c88bcdbfef9fa8ebbbf0dd8392440f60b1a1f8",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "test/images/d3dd8f6e-076d-42e5-838b-5348eec55082_jpg.rf.fcc76e2bb45650be2148674c2975f990.jpg",
+    "objects": 5
+  },
+  {
+    "file": "lab_v2_f0f8ff88-7fb3-4ead-a186-a695cfc60cdd_jpg.rf.543ef3c5c794876e0e9c9cec9d994b76.jpg",
+    "split": "test",
+    "source_group": "lab_v2_f0f8ff88-7fb3-4ead-a186-a695cfc60cdd_jpg",
+    "sha256": "e9e1c9c6b7bb66864d98806912e813c96b2805ec838be7a8baaacb4f70b131f5",
+    "source": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+    "original": "test/images/f0f8ff88-7fb3-4ead-a186-a695cfc60cdd_jpg.rf.543ef3c5c794876e0e9c9cec9d994b76.jpg",
+    "objects": 11
   }
 ]

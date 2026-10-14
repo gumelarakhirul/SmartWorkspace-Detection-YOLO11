@@ -49,32 +49,47 @@
         "keyboard": 30,
         "mouse": 31
       }
+    },
+    {
+      "dataset": "SmartWorkspace-ComputerLab.v2-versi2.yolov11.zip",
+      "gambar": 25,
+      "split": {
+        "train": 15,
+        "valid": 5,
+        "test": 5
+      },
+      "objek_target": {
+        "pc": 64,
+        "monitor": 80,
+        "keyboard": 31,
+        "mouse": 24
+      }
     }
   ],
-  "gambar_awal": 664,
-  "gambar_gabungan": 664,
+  "gambar_awal": 689,
+  "gambar_gabungan": 689,
   "split": {
-    "test": 81,
-    "train": 470,
-    "valid": 113
+    "test": 86,
+    "train": 485,
+    "valid": 118
   },
   "anotasi_per_split": {
-    "test": {
-      "keyboard": 13,
-      "mouse": 9,
-      "monitor": 82,
-      "pc": 8
-    },
     "train": {
-      "keyboard": 204,
-      "mouse": 179,
-      "monitor": 417,
-      "pc": 111
+      "keyboard": 216,
+      "mouse": 191,
+      "monitor": 451,
+      "pc": 135
     },
     "valid": {
+      "keyboard": 32,
+      "monitor": 128,
+      "pc": 35,
+      "mouse": 33
+    },
+    "test": {
+      "pc": 22,
       "keyboard": 19,
-      "mouse": 26,
-      "pc": 9,
+      "mouse": 14,
       "monitor": 98
     }
   },
@@ -83,5 +98,6 @@
   "gambar_pindah_split": 85,
   "polygon_dikonversi": 30,
   "gambar_background": 7,
-  "catatan": "Split sumber dipertahankan; kelompok augmentasi lintas split dipindahkan ke test/valid. Audit hash dan nama sumber; duplikat visual berbeda nama belum diverifikasi."
+  "catatan": "Split sumber dipertahankan; kelompok augmentasi lintas split dipindahkan ke test/valid. Audit hash dan nama sumber; duplikat visual berbeda nama belum diverifikasi.",
+  "catatan_foto_lab": "Versi 2: 15 train (9 lama + 6 baru), 5 validation baru, 5 test baru. Audit hash/nama sumber lolos; independensi sesi dan kemiripan visual perlu diperiksa pengguna."
 }

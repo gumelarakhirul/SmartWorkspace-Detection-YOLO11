@@ -10,7 +10,7 @@ BASE = Path(__file__).resolve().parent
 def main():
     parser=argparse.ArgumentParser(description='Object detection YOLO11 dengan Iriun.')
     parser.add_argument('--model',type=Path,default=BASE/'best.pt')
-    parser.add_argument('--conf',type=float,default=0.70)
+    parser.add_argument('--conf',type=float,default=0.40)
     parser.add_argument('--list-kamera',action='store_true')
     parser.add_argument('--kamera',choices=['iriun'],default='iriun')
     args=parser.parse_args()
@@ -30,8 +30,8 @@ def main():
         DEVICE=0 if torch.cuda.is_available() else 'cpu'
         model=YOLO(str(args.model))
         expected=['keyboard','mouse','pc','monitor']
-        if not set(expected).issubset(model.names.values()):
-            parser.error('Model tidak memiliki empat kelas target. Jalankan training notebook.')
+        if list(model.names.values()) != expected:
+            parser.error('Model harus memiliki tepat empat kelas target. Jalankan training notebook.')
         CLASS_IDS=[cid for cid,name in model.names.items() if name in expected]
         print('Model:',args.model,'| Device:',DEVICE)
         print('Kelas:',[model.names[cid] for cid in CLASS_IDS])
@@ -42,7 +42,7 @@ def iou(a,b):
     area_a=(a[2]-a[0])*(a[3]-a[1]);area_b=(b[2]-b[0])*(b[3]-b[1])
     return inter/max(area_a+area_b-inter,1e-9)
 
-def kamera_iriun(model, CLASS_IDS, DEVICE, conf=0.70):
+def kamera_iriun(model, CLASS_IDS, DEVICE, conf=0.40):
     import cv2
     import numpy as np
     from cv2_enumerate_cameras import enumerate_cameras
